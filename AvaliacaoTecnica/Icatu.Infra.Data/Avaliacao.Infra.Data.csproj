@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Icatu.Domain\Icatu.Domain.csproj" />
+    <ProjectReference Include="..\Avaliacao.Domain\Avaliacao.Domain.csproj" />
   </ItemGroup>
 
 </Project>

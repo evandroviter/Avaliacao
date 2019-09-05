@@ -1,6 +1,6 @@
-﻿using Icatu.Domain.Interfaces;
-using Icatu.Infra.Data.Repository;
-using Icatu.Service.Services;
+﻿using Avaliacao.Domain.Interfaces;
+using Avaliacao.Infra.Data.Repository;
+using Avaliacao.Service.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -42,7 +42,7 @@ namespace AvaliacaoTecnica
                 opt.SwaggerDoc("v1", new Info
                 {
                     Version = "v1",
-                    Title = "Icatu API",
+                    Title = "Avaliação Técnica API",
                     Description = "Um exemplo de aplicação ASP.NET Core Web API",
                     Contact = new Contact
                     {
@@ -62,7 +62,7 @@ namespace AvaliacaoTecnica
             // Ativa o Swagger UI
             app.UseSwaggerUI(opt =>
             {
-                opt.SwaggerEndpoint("/swagger/v1/swagger.json", "Icatu API V1");
+                opt.SwaggerEndpoint("/swagger/v1/swagger.json", "Avaliação Técnica API V1");
                 opt.RoutePrefix = "swagger";
             });
 

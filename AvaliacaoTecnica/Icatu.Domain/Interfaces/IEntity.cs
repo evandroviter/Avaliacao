@@ -1,4 +1,4 @@
-﻿namespace Icatu.Domain.Interfaces
+﻿namespace Avaliacao.Domain.Interfaces
 {
     public interface IEntity<T>
     {

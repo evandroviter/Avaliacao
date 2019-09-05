@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Avaliacao.Domain\Avaliacao.Domain.csproj" />
+    <ProjectReference Include="..\Avaliacao.Infra.CrossCutting\Avaliacao.Infra.CrossCutting.csproj" />
+    <ProjectReference Include="..\Avaliacao.Infra.Data\Avaliacao.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,6 +1,6 @@
-﻿using Icatu.Domain.Entities;
+﻿using Avaliacao.Domain.Entities;
 
-namespace Icatu.Domain.Interfaces
+namespace Avaliacao.Domain.Interfaces
 {
     public interface IEnderecoService : IService<Endereco>
     {

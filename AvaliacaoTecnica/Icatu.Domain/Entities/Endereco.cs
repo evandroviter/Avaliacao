@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Icatu.Domain.Entities
+namespace Avaliacao.Domain.Entities
 {
     public class Endereco : Entity<int>
     {

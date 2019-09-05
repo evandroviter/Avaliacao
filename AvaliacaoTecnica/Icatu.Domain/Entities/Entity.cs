@@ -1,7 +1,7 @@
-﻿using Icatu.Domain.Interfaces;
+﻿using Avaliacao.Domain.Interfaces;
 using System.ComponentModel.DataAnnotations;
 
-namespace Icatu.Domain.Entities
+namespace Avaliacao.Domain.Entities
 {
     public abstract class Entity<T> : BaseEntity, IEntity<T>
     {

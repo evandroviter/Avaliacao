@@ -1,12 +1,12 @@
 ﻿using FluentValidation;
-using Icatu.Domain.Entities;
-using Icatu.Domain.Interfaces;
-using Icatu.Service.Validators;
+using Avaliacao.Domain.Entities;
+using Avaliacao.Domain.Interfaces;
+using Avaliacao.Service.Validators;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Icatu.Test.Domain
+namespace Avaliacao.Test.Domain
 {
     public class ClienteServiceFake : IClienteService
     {

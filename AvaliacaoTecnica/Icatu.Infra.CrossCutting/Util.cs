@@ -1,4 +1,4 @@
-﻿namespace Icatu.Infra.CrossCutting
+﻿namespace Avaliacao.Infra.CrossCutting
 {
     public static class Util
     {

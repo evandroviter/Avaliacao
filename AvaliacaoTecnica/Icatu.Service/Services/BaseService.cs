@@ -1,10 +1,10 @@
 ﻿using FluentValidation;
-using Icatu.Domain.Entities;
-using Icatu.Domain.Interfaces;
+using Avaliacao.Domain.Entities;
+using Avaliacao.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 
-namespace Icatu.Service.Services
+namespace Avaliacao.Service.Services
 {
     public abstract class BaseService<T> : IService<T> where T : BaseEntity
     {

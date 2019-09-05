@@ -1,10 +1,10 @@
 ﻿using System;
-using Icatu.Domain.Entities;
-using Icatu.Domain.Interfaces;
-using Icatu.Service.Validators;
+using Avaliacao.Domain.Entities;
+using Avaliacao.Domain.Interfaces;
+using Avaliacao.Service.Validators;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Icatu.Application.Controllers
+namespace Avaliacao.Application.Controllers
 {
     [Produces("application/json")]
     [Route("api/[controller]")]

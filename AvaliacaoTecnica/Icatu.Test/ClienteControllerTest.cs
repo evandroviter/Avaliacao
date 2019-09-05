@@ -1,14 +1,14 @@
-using Icatu.Application.Controllers;
-using Icatu.Domain.Entities;
-using Icatu.Domain.Interfaces;
-using Icatu.Test.Domain;
+using Avaliacao.Application.Controllers;
+using Avaliacao.Domain.Entities;
+using Avaliacao.Domain.Interfaces;
+using Avaliacao.Test.Domain;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace Icatu.Test
+namespace Avaliacao.Test
 {
     public class ClienteControllerTest
     {

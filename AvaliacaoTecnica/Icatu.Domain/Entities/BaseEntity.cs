@@ -1,4 +1,4 @@
-﻿namespace Icatu.Domain.Entities
+﻿namespace Avaliacao.Domain.Entities
 {
     public abstract class BaseEntity
     {

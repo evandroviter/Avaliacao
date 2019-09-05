@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using Icatu.Domain.Entities;
+using Avaliacao.Domain.Entities;
 using System;
 using System.Collections.Generic;
 
-namespace Icatu.Domain.Interfaces
+namespace Avaliacao.Domain.Interfaces
 {
     public interface IService<T> where T : BaseEntity
     {

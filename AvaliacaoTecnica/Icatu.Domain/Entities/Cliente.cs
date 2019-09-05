@@ -1,5 +1,5 @@
 ﻿
-namespace Icatu.Domain.Entities
+namespace Avaliacao.Domain.Entities
 {
     public class Cliente : Entity<int>
     {

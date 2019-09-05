@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using Icatu.Domain.Entities;
-using Icatu.Infra.CrossCutting;
+using Avaliacao.Domain.Entities;
+using Avaliacao.Infra.CrossCutting;
 using System;
 
-namespace Icatu.Service.Validators
+namespace Avaliacao.Service.Validators
 {
     public class ClienteValidator : AbstractValidator<Cliente>
     {

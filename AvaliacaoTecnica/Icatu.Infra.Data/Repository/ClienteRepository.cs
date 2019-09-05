@@ -1,13 +1,13 @@
 ﻿using Dapper;
-using Icatu.Domain.Entities;
-using Icatu.Domain.Interfaces;
+using Avaliacao.Domain.Entities;
+using Avaliacao.Domain.Interfaces;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 
-namespace Icatu.Infra.Data.Repository
+namespace Avaliacao.Infra.Data.Repository
 {
     public class ClienteRepository : BaseRepository<Cliente>, IClienteRepository
     {

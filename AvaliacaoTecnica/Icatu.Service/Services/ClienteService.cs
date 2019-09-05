@@ -1,7 +1,7 @@
-﻿using Icatu.Domain.Entities;
-using Icatu.Domain.Interfaces;
+﻿using Avaliacao.Domain.Entities;
+using Avaliacao.Domain.Interfaces;
 
-namespace Icatu.Service.Services
+namespace Avaliacao.Service.Services
 {
     public class ClienteService : BaseService<Cliente>, IClienteService
     {

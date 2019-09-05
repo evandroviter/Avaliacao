@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icatu.Application", "AvaliacaoTecnica\Icatu.Application.csproj", "{9035D6C6-862C-4024-94AD-52F9978C8EC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaliacao.Application", "AvaliacaoTecnica\Avaliacao.Application.csproj", "{9035D6C6-862C-4024-94AD-52F9978C8EC3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{9698D8DF-80A8-4A9C-A8B4-4BB93FB79A42}"
 EndProject
@@ -17,21 +17,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{FF42006A-000F-4120-BF6F-7D18ABB02CD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icatu.Domain", "Icatu.Domain\Icatu.Domain.csproj", "{95F3ED16-8A54-482C-A624-9D99B3412C12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaliacao.Domain", "Icatu.Domain\Avaliacao.Domain.csproj", "{95F3ED16-8A54-482C-A624-9D99B3412C12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icatu.Service", "Icatu.Service\Icatu.Service.csproj", "{0A835CF1-2A79-4D53-BC29-E0BBDD236B6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaliacao.Service", "Icatu.Service\Avaliacao.Service.csproj", "{0A835CF1-2A79-4D53-BC29-E0BBDD236B6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icatu.Infra.Data", "Icatu.Infra.Data\Icatu.Infra.Data.csproj", "{073D05FB-4976-4BDB-A0E3-19B7B6B6A58B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaliacao.Infra.Data", "Icatu.Infra.Data\Avaliacao.Infra.Data.csproj", "{073D05FB-4976-4BDB-A0E3-19B7B6B6A58B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icatu.Infra.CrossCutting", "Icatu.Infra.CrossCutting\Icatu.Infra.CrossCutting.csproj", "{DE5AE5D8-731E-4549-B589-C6CD2DA41E75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaliacao.Infra.CrossCutting", "Icatu.Infra.CrossCutting\Avaliacao.Infra.CrossCutting.csproj", "{DE5AE5D8-731E-4549-B589-C6CD2DA41E75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Database", "5 - Database", "{B43F9446-4A7B-46F2-A44D-E89A9D860BD8}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Icatu.Database", "Icatu.Database\Icatu.Database.sqlproj", "{0E053043-52B4-47C4-BCEE-261FFC501BB7}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Avaliacao.Database", "Icatu.Database\Avaliacao.Database.sqlproj", "{0E053043-52B4-47C4-BCEE-261FFC501BB7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Test", "6 - Test", "{6E7232C6-4E70-4D5D-94C9-758AB89B6F4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icatu.Test", "Icatu.Test\Icatu.Test.csproj", "{2F37EB3F-6543-406A-8097-C23F692F3A66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avaliacao.Test", "Icatu.Test\Avaliacao.Test.csproj", "{2F37EB3F-6543-406A-8097-C23F692F3A66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

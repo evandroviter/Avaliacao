@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using Icatu.Domain.Entities;
-using Icatu.Domain.Interfaces;
+using Avaliacao.Domain.Entities;
+using Avaliacao.Domain.Interfaces;
 using Microsoft.Extensions.Configuration;
 
 
-namespace Icatu.Infra.Data.Repository
+namespace Avaliacao.Infra.Data.Repository
 {
     public abstract class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {
@@ -21,7 +21,7 @@ namespace Icatu.Infra.Data.Repository
 
         public virtual string GetConnection()
         {
-            var connection = _configuration.GetSection("ConnectionStrings").GetSection("IcatuConnection").Value;
+            var connection = _configuration.GetSection("ConnectionStrings").GetSection("AvaliacaoConnection").Value;
             return connection;
         }
 

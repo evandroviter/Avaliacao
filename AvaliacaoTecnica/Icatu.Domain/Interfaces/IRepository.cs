@@ -1,7 +1,7 @@
-﻿using Icatu.Domain.Entities;
+﻿using Avaliacao.Domain.Entities;
 using System.Collections.Generic;
 
-namespace Icatu.Domain.Interfaces
+namespace Avaliacao.Domain.Interfaces
 {
     public interface IRepository<T> where T : BaseEntity
     {
