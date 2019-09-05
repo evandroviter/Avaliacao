@@ -24,7 +24,7 @@ namespace Avaliacao.Infra.Data.Repository
                 {
                     conn.Open();
                     var query = "DELETE FROM Enderecos WHERE Id = @Id";
-                    return conn.Execute(query, id);
+                    return conn.Execute(query, new { Id = id });
                 }
                 catch (Exception ex)
                 {
@@ -47,7 +47,7 @@ namespace Avaliacao.Infra.Data.Repository
                 {
                     conn.Open();
                     var query = "SELECT * FROM Enderecos WHERE Id = @Id";
-                    Endereco = conn.Query<Endereco>(query, id).FirstOrDefault();
+                    Endereco = conn.Query<Endereco>(query, new { Id = id }).FirstOrDefault();
                 }
                 catch (Exception ex)
                 {
@@ -123,7 +123,7 @@ namespace Avaliacao.Infra.Data.Repository
                                   Cidade = @Cidade,
                                   Estado = @Estado
                                   WHERE Id = @Id";
-                    return conn.Execute(query, entity);
+                    return conn.Execute(query, new { entity.ClienteId, entity.Logradouro, entity.Bairro, entity.Cidade, entity.Estado, entity.Id });
                 }
                 catch (Exception ex)
                 {

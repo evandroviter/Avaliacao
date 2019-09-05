@@ -40,7 +40,7 @@ namespace Avaliacao.Application.Controllers
             }
         }
 
-        [HttpPut("Cliente/{id}")]
+        [HttpPut]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(500)]

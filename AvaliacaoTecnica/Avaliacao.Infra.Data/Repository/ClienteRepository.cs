@@ -24,8 +24,8 @@ namespace Avaliacao.Infra.Data.Repository
                 try
                 {
                     conn.Open();
-                    var query = "DELETE FROM Clientes WHERE Id = @Id";
-                    return conn.Execute(query, id);
+                    var query = "DELETE FROM Clientes WHERE Id = @Id";                     
+                    return conn.Execute(query, new { Id = id });
                 }
                 catch (Exception ex)
                 {
@@ -48,7 +48,7 @@ namespace Avaliacao.Infra.Data.Repository
                 {
                     conn.Open();
                     var query = "SELECT * FROM Clientes WHERE Id = @Id";
-                    cliente = conn.Query<Cliente>(query, id).FirstOrDefault();
+                    cliente = conn.Query<Cliente>(query, new { Id = id }).FirstOrDefault();
                 }
                 catch (Exception ex)
                 {
@@ -121,7 +121,7 @@ namespace Avaliacao.Infra.Data.Repository
                                   Cpf = @Cpf, 
                                   Idade = @Idade 
                                   WHERE Id = @Id";
-                    return conn.Execute(query, entity);
+                    return conn.Execute(query, new { entity.Nome, entity.Cpf, entity.Idade, entity.Id });
                 }
                 catch (Exception ex)
                 {

@@ -40,7 +40,7 @@ namespace Avaliacao.Application.Controllers
             }
         }
 
-        [HttpPut("Endereco/{id}")]
+        [HttpPut]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
         [ProducesResponseType(500)]
